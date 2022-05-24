@@ -62,7 +62,7 @@
   .cansell--image-section {
     width: 45%;
     height: auto;
+    max-height: 48.2rem;
     padding-top: 0rem;
-    object-fit: cover;
   }
 }

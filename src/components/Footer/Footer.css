@@ -1,4 +1,4 @@
-.footer-container {
+.footer-content {
   width: 100%;
   min-width: 32rem;
   height: 95rem;
@@ -30,8 +30,17 @@
 }
 
 .terms-and-conditions {
+  width: 100%;
+  min-width: 32rem;
+  height: 10.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 3.2rem;
   text-align: center;
   color: #6F6E83;
+  background-color: #FAFAFA;
 }
 
 .terms-and-conditions p{
@@ -45,13 +54,31 @@
 
 @media (min-width: 970px) {
   .footer-container {
-    height: 14rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer--image-sg {
+    align-self: flex-start;
+    padding-top: 7.2rem;
+  }
+
+  .footer-content {
+    height: 32.8rem; 
     flex-direction: row;
+    align-items: center;
     padding-left: 10rem;
     padding-right: 10rem;
   }
 
   .terms-and-conditions {
-    display: inline;
+    height: 6.4rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12rem;
+  }
+
+  .terms-and-conditions p{
+    padding-bottom: 0rem;
   }
 }
