@@ -1,0 +1,98 @@
+.header--container {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: 7.2rem;
+  background-color: var(--background-space-guru);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.header--logo {
+  width: 15rem;
+  height: 2.7rem;
+}
+
+.header--phone-icon {
+  position: absolute;
+  left: 2rem;
+}
+
+.header--user-icon {
+  position: absolute;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.header--phone-icon_desktop, .header--user-icon_desktop, .header--navigator-menu_desktop {
+  display: none;
+}
+
+@media (min-width: 970px) {
+  .header--container {
+    height: 6.4rem;
+    justify-content: space-between;
+    padding: 0 10rem;
+  }
+
+  .header--phone-icon, .header--user-icon{
+    display: none;
+  }
+
+  .header--navigator-menu_desktop {
+    width: 33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .header--info_desktop {
+    width: 33.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header--phone-icon_desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13.2rem;
+    height: 2.4rem;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .header--user-icon_desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 16rem;
+    height: 3.6rem;
+    background-color: transparent;
+    border: 0.2rem solid #fff;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.6rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .header--user-icon_desktop p{
+    margin: 0;
+  }
+
+  .header--phone-icon_desktop p{
+    margin: 0;
+  }
+
+  .header--phone-icon_desktop img{
+    margin: 0;
+  }
+}
