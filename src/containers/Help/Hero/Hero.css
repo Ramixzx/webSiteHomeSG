@@ -3,6 +3,7 @@
   height: 32.8rem;
   padding-top: 7.2rem;
   text-align: center;
+  background-color: #F5F5FB;
 }
 
 .help--hero-image{
@@ -43,6 +44,8 @@
   }
 
   .help--hero-title h1{
+    padding: 0;
+    line-height: 4.4rem;
     font-size: 4rem;
     color: #383677;
   }

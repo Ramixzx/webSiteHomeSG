@@ -52,6 +52,20 @@
     font-weight: 500;
   }
 
+  .header--navigator-menu_desktop .menu_desktop-link{
+    color: #ffffff;
+    text-decoration: none;
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    padding-top: 0.6rem;
+  }
+
+  .header--navigator-menu_desktop .menu_desktop-link:hover{
+    border: 0.2rem solid #ffffff;
+    border-radius: 0.4rem;
+  }
+
   .header--info_desktop {
     width: 33.2rem;
     display: flex;

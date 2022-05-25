@@ -1,0 +1,91 @@
+.help--questions-container {
+  width: 100%;
+  height: auto;
+  min-height: 54.6rem;
+  text-align: center;  
+  background-color: #F5F5FB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.help--questions-title {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+
+.help--questions-p {
+  margin: 0;
+  color: #7E7AFF;
+  padding: 0 1.6rem;
+  padding-bottom: 3.2rem;
+  max-width: 62.4rem;
+}
+
+.help--questions-categorys {
+  padding-top: 3.6rem;
+  width: 90%;
+  max-width: 86.6rem;
+  text-align: start;
+}
+
+.help--questions-categorys h3{
+  padding-bottom: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0F0E31;
+}
+
+.accordion--styles {
+  width: 90%;
+  height: 73%;
+  max-width: 86.6rem;
+  padding-bottom: 3.6rem;
+}
+
+.card--styles {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0rem 0.2rem 0.3rem rgb(0 0 0 / 20%);
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.card--styles h5 a{
+  text-decoration: none;
+}
+
+.card--contain {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.4rem;
+  padding: 0 1.6rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.card--contain p{
+  color: #2F2C7C;
+  margin: 0;
+  width: 100%;
+  text-align: start;
+  font-size: 1.6rem;
+}
+
+.card-body {
+  padding: 1.2rem;
+  text-align: start;
+}
+
+@media (min-width: 970px) {
+  .help--questions-title {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #2F2C7C;
+  }
+}

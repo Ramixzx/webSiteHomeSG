@@ -1,0 +1,62 @@
+.help--communication-section {
+  width: 100%;
+  min-width: 32rem;
+  height: 28rem;
+  padding: 2.4rem 1.6rem 3.6rem 1.6rem;
+  background-color: #F5F5FB;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(15.6rem, 21rem));
+  grid-template-rows: repeat(2, minmax(9rem, 18rem));
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.communication--card {
+  min-width: 14.2rem;
+  width: 100%;
+  min-height: 9.1rem;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 0.4rem;
+  padding: 1.6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.communication--card h2{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1C1A4A;
+}
+
+.communication--card img{
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+@media (min-width: 970px) {
+  .help--communication-section {
+    display: flex;
+    gap: 2.4rem;
+  }
+  
+  .communication--card {
+    width: 21rem;
+    height: 18rem;
+    justify-content: space-around;
+  }
+
+  .communication--card h2{
+    font-size: 2.4rem;
+  }
+
+  .communication--card img{
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+}

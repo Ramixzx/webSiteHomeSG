@@ -2,19 +2,20 @@ import React from 'react';
 import logoHeader from '../../Assets/images/logo-header.svg';
 import iconPhoneHeader from '../../Assets/icons/icon-phone-header.svg';
 import iconUser from '../../Assets/icons/icon-user.svg';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
   return ( 
     <>
       <header className='header--container'>
-        <img className='header--logo' src={logoHeader} alt="Logo Space Guru" />
+        <Link to={'/'}><img className='header--logo' src={logoHeader} alt="Logo Space Guru" /></Link>
         <img className='header--phone-icon' src={iconPhoneHeader} alt="Telefono movil" />
         <img className='header--user-icon' src={iconUser} />
         <div className='header--navigator-menu_desktop'>
-          <span>Nosotros</span>
-          <span>Empresas</span>
-          <span>Ayuda</span>
+          <Link className='menu_desktop-link' to={'/nosotros'}>Nosotros</Link>
+          <Link className='menu_desktop-link' to={'/empresas'}>Empresas</Link>
+          <Link className='menu_desktop-link' to={'/ayuda'}>Ayuda</Link>
         </div>
         <div className='header--info_desktop'>
           <div className='header--phone-icon_desktop'>
