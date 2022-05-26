@@ -23,13 +23,17 @@
 @media (min-width: 970px) {
   .help--hero-section {
     background-image: url(../../../Assets/images/hero-bg-image.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
     padding-top: 6.4rem;
     height: 34rem;
     text-align: start;
   }
 
   .help--hero-title {
-    width: 77.6rem;
+    width: 50%;
+    max-width: 77.6rem;
     height: 100%;
     background: linear-gradient(141.32deg, #F2F2FE -9.69%, #D7D7FF 73.72%);
     padding: 8rem 0 8rem 12rem;

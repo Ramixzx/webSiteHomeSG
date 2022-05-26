@@ -59,6 +59,7 @@
 }
 
 .card--contain {
+  height: auto;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -70,6 +71,7 @@
 }
 
 .card--contain p{
+  word-break: break-all;
   color: #2F2C7C;
   margin: 0;
   width: 100%;

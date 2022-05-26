@@ -4,10 +4,12 @@ import logoPorpSG from '../../Assets/images/propSG.svg'
 import logoAppStore from '../../Assets/images/logo-app-store.svg';
 import logoGooglePlay from '../../Assets/images/logo-google-play.svg';
 import './Footer.css';
+import Contact from '../../components/Contact';
 
 const Footer = () => {
   return ( 
     <>
+      <Contact />
       <footer className='footer-container'>
         <div className='footer-content'>
           <img className='footer--image-sg' src={imageFooter} alt="Logo SpaceGuru 2022" />

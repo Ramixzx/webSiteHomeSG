@@ -13,6 +13,9 @@
 .howWorks--title {
   font-size: 2.6rem;
   font-weight: 500;
+  width: 22rem;
+  height: 4rem;
+  margin: 0 auto;
 }
 
 .howWorks--card {
@@ -107,6 +110,8 @@
   .howWorks--title {
     font-size: 4rem;
     padding-bottom: 3rem;
+    width: auto;
+    height: auto;
   }
 
   .carrousel-styles {

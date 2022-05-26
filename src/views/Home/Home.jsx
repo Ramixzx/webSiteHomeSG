@@ -16,7 +16,6 @@ const Home = () => {
       <Table />
       <Questions />
       <Form />
-      <Contact />
     </>
    );
 }
